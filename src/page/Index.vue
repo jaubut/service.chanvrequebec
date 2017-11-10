@@ -15,12 +15,12 @@
           <p>Our web development services are high end hand crafted web apps.</p>
           <button class="apply-now">talk with our team</button>
         </div>
-        <img class="image-zone" height="100%" width="auto" src="../assets/webdev-1.png" alt="macbook jechanvre.io web">
+        <img class="image-zone" src="../assets/webdev-1.png" alt="macbook jechanvre.io web">
       </div>
     </section>
     <section>
       <div class="section-3">
-        <img height="100%" width="auto" src="../assets/facebook-page.png" alt="facebook chanvre quebec">
+        <img src="../assets/facebook-page.png" alt="facebook chanvre quebec">
         <div class="text-zone">
           <h2>Social Media</h2>
           <p>In today's world, to get people attention and conversions. Your online presence need a great strategy. Socials medias play a center role in that journey. From Instagram, to twitter and beyond. Let us help you find the perfect strategy that suit your business profile.</p>
@@ -40,9 +40,9 @@
     </section>
     <section>
       <div class="section-3">
-        <img height="100%" width="auto" src="../assets/branding.jpg" alt="chanvre quebec graine de chanvre">
+        <img src="../assets/branding.jpg" alt="chanvre quebec graine de chanvre">
         <div class="text-zone">
-          <h2>Brandisng</h2>
+          <h2>Branding</h2>
           <p>Finally, we love developing great experiences around hemp. From food, to construction, we can help create your next brand identity.</p>
           <button class="apply-now">talk with our team</button>
         </div>
@@ -77,19 +77,22 @@ section
   height: 85vh
   display: grid
   grid-template: 5% 45% 45% 5% / 2% 48% 48% 2%
+  img
+    height: 100%
+    width: auto
 .section-1
   grid-area: 2/2/4/4
   display: flex
   justify-content: center
   align-items: center
-  flex-direction: column
+  flex-flow: column nowrap
   background: white
   padding: 10px 25px
   border-radius: 5px
 .section-2
   grid-area: 2/2/4/4
   display: flex
-  flex-direction: row
+  flex-flow: row wrap
   justify-content: space-around
   align-items: center
   background: $light-grey
@@ -98,7 +101,7 @@ section
 .section-3
   grid-area: 2/2/4/4
   display: flex
-  flex-direction: row
+  flex-flow: row nowrap
   justify-content: space-around
   padding: 25px 45px
   align-items: right
@@ -211,4 +214,20 @@ footer
   align-self: top
   margin-top: 15px
   border: 1px solid $grey
+@media only screen and (max-width: 568px)
+  section
+    height: 100%
+    img
+      height: auto
+      width: auto
+  .section-3
+    flex-flow: row wrap
+  .text-area
+    padding: 0 5%
+  .text-zone
+    max-width: 100%
+  footer
+    height: 100%
+  iframe
+    margin-top: 25px
 </style>
