@@ -219,7 +219,7 @@ footer
     height: 100%
     img
       height: auto
-      width: auto
+      width: 90vw
   .section-3
     flex-flow: row wrap
   .text-area
