@@ -58,7 +58,7 @@
     </section>
     <section>
       <div class="section-1">
-        <h2>Our dedicated team</h2>
+        <h2>Our special agents</h2>
         <div class="team">
           <div class="team-member">
             <img src="../assets/darko.jpg" alt="">
@@ -164,6 +164,7 @@ section
   align-content: center
   padding: 0 25px
   text-align: center
+  max-width: 130px
   h4
     margin: 0
   p
