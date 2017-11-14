@@ -1,5 +1,13 @@
 <template>
   <div id="index">
+    <section>
+      <div class="section-2">
+        <div class="text-zone delegate">
+          <h2>Offer for delegates</h2>
+          <p>If you are here at the CHTA, we offer you corporate photos. <br>14-15-16 november<br><strong>30$/member</strong> </p>
+        </div>
+      </div>
+    </section>
     <section id="index1">
       <div class="section-1">
         <h1>Discover our services</h1>
@@ -146,6 +154,9 @@ section
   flex-flow: column nowrap
   text-align: left
   max-width: 35%
+.delegate
+  max-width: 50%
+  text-align: center
 .image-zone
   align-self: right
 .text-area
