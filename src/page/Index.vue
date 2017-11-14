@@ -5,6 +5,7 @@
         <div class="text-zone delegate">
           <h2>Offer for delegates</h2>
           <p>If you are here at the CHTA, we offer you corporate photos. <br>14-15-16 november<br><strong>30$/member</strong> </p>
+          <p>Text: 450.775.8112 <br> Email: allo@chanvrequebec.com</p>
         </div>
       </div>
     </section>
