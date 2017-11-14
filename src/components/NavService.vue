@@ -1,11 +1,18 @@
 <template>
   <div id="nav-service">
-    <p>contact</p>
+    <a href="mailto:allo@chanvrequebec.com">
+      <p class="click">contact</p>
+    </a>
   </div>
 </template>
 <script>
 export default {
-  name: 'nav-service'
+  name: 'nav-service',
+  methods: {
+    openSmooch (Smooch) {
+      Smooch.open()
+    }
+  }
 }
 </script>
 <style lang="sass" scoped>
@@ -23,7 +30,7 @@ p
   font-weight: 100
   font-size: 0.85rem
   padding: 0 15px
-a
+.click
   text-decoration: none
   opacity: 0.7
   &:hover
